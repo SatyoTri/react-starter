@@ -29,5 +29,9 @@ export default [
         { allowConstantExport: true },
       ],
     },
+    env: {
+      browser: true,
+      node: true, // ✅ tambahkan ini
+    },
   },
 ]
